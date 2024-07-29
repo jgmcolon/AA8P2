@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación de Cancha de Tenis</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Reservación de Cancha de Tenis</h1>            
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingrese su Nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="membershipNumber">Numero de Socio</label>
+                <input type="text" class="form-control" id="membershipNumber" placeholder="Ingrese su numero de Socio" required>
+            </div>
+            <div class="form-group">
+                <label for="courtNumber">Cancha</label>
+                <select class="form-control" id="courtNumber" required>
+                    <option value="" disabled selected>Seleccione la Cancha</option>
+                    <option value="1">Cancha 1</option>
+                    <option value="2">Cancha 2</option>
+                    <option value="3">Cancha 3</option>
+                    <option value="4">Cancha 4</option>
+                    <option value="5">Cancha 5</option>
+                    <option value="6">Cancha 6</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="reservationDate">Fecha de la reservación</label>
+                <input type="date" class="form-control" id="reservationDate" required>
+            </div>
+            <div class="form-group">
+                <label for="reservationTime">Hora de la reservación</label>
+                <input type="time" class="form-control" id="reservationTime" required>
+            </div>
+            <div class="form-group">
+                <label for="players">Jugadores</label>
+                <select class="form-control" id="players" required>
+                    <option value="" disabled selected>Seleccione un Jugador</option>
+                    <option value="player1">Jugador 1</option>
+                    <option value="player2">Jugador 2</option>
+                    <option value="player3">Jugador 3</option>
+                    <option value="player4">Jugador 4</option>
+                    <option value="player5">Jugador 5</option>
+                    <option value="player6">Jugador 6</option>
+                </select>
+                <select class="form-control" id="players" required>
+                    <option value="" disabled selected>Seleccione un Jugador</option>
+                    <option value="player1">Jugador 1</option>
+                    <option value="player2">Jugador 2</option>
+                    <option value="player3">Jugador 3</option>
+                    <option value="player4">Jugador 4</option>
+                    <option value="player5">Jugador 5</option>
+                    <option value="player6">Jugador 6</option>
+                </select>
+                <select class="form-control" id="players" required>
+                    <option value="" disabled selected>Seleccione un Jugador</option>
+                    <option value="player1">Jugador 1</option>
+                    <option value="player2">Jugador 2</option>
+                    <option value="player3">Jugador 3</option>
+                    <option value="player4">Jugador 4</option>
+                    <option value="player5">Jugador 5</option>
+                    <option value="player6">Jugador 6</option>
+                </select>
+                <select class="form-control" id="players" required>
+                    <option value="" disabled selected>Seleccione un Jugador</option>
+                    <option value="player1">Jugador 1</option>
+                    <option value="player2">Jugador 2</option>
+                    <option value="player3">Jugador 3</option>
+                    <option value="player4">Jugador 4</option>
+                    <option value="player5">Jugador 5</option>
+                    <option value="player6">Jugador 6</option>
+                </select>             
+            </div>
+            <button type="submit" class="btn btn-custom btn-block">Reservar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+</body>
+</html>
