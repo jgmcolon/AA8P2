@@ -43,6 +43,10 @@
 </head>
 
 <body id="page-top">
+    
+    <button id="scrollButton" onclick="scrollToTop()">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZb000DycIWsZ6I4l-xqeXK2GLlFbD5CcSYQ&s" alt="Subir">
+    </button>
 
     <!-- Preloader -->
     <div id="preloader"> 
@@ -539,7 +543,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="blog_worp">
                         <div class="blog_img">
-                            <a class="imghover" href="blog-details.html"><img class="img-responsive" alt="Blog Img 02" src="img/blog/blog-car.jpg"></a>
+                            <a class="imghover" href="blog-details.html"><img class="img-responsive" alt="Blog Img 02" src="https://images.prismic.io/cred/3fcf0586-127b-4f01-a88b-bfd4e431baf4_7+Tips+%26+Tricks+for+Managing+a+Car+Loan.jpg?auto=compress,format&rect=0,0,7135,4316&w=620&h=375"></a>
                         </div>
                         <div class="blog_content">
                             <h2><a class="title" href="blog-details.html">Car Loan For You</a></h2>
@@ -552,7 +556,7 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="blog_worp">
                         <div class="blog_img">
-                            <a class="imghover" href="blog-details.html"><img class="img-responsive" alt="Blog Img 03" src="img/blog/blog-edu.jpg"></a>
+                            <a class="imghover" href="blog-details.html"><img class="img-responsive" alt="Blog Img 03" src="https://ausstudies.com/storage/services/May2021/educationloan.jpg"></a>
                         </div>
                         <div class="blog_content">
                             <h2><a class="title" href="blog-details.html">Education Loan For You</a></h2>
@@ -740,6 +744,23 @@
     <!-- Theme JavaScript -->
     <script src="js/custom.js"></script>
     <script src="js/testimonials.js"></script>
+
+    <script>
+        // Muestra el botón cuando el usuario hace scroll hacia abajo
+        window.onscroll = function() {
+            const scrollButton = document.getElementById('scrollButton');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollButton.style.display = "block";
+            } else {
+                scrollButton.style.display = "none";
+            }
+        };
+
+        // Función para hacer scroll hacia arriba
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
 
 </body>
 </html>
