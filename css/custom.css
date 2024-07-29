@@ -25,7 +25,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #ffd15c;
 }
 
 hr {
@@ -67,7 +67,7 @@ p {
 }
 
 .navbar-default {
-  background-color: #15549a;
+  background-color: #0d2b4d;
   border-color: rgba(21, 84, 154, 0.1);
   opacity: 1;
   -webkit-transition: all 0.35s;
@@ -82,13 +82,13 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #c79d34;
   padding: 8px 15px 15px 15px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #a1802a;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
