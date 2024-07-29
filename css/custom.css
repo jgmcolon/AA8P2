@@ -111,7 +111,7 @@ p {
   border:1px solid #fff;
   margin-right: 5px;
   border-radius: 4px;
-  background: #15549a;
+  background: #01080f;
   font-weight: 500;
 }
 
@@ -188,7 +188,7 @@ header {
 
 header.car_loan{
   background-image: linear-gradient(rgba(21, 84, 154, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg");
-  background-image: -webkit-linear-gradient(rgba(21, 84, 154, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg"); 
+  background-image: -webkit-linear-gradient(rgba(154, 21, 152, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg"); 
   background-image:    -moz-linear-gradient(rgba(21, 84, 154, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg"); 
   background-image:     -ms-linear-gradient(rgba(21, 84, 154, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg"); 
   background-image:      -o-linear-gradient(rgba(21, 84, 154, 0.85), rgba(21, 84, 154, 0.85)), url("../img/header.jpg"); 
